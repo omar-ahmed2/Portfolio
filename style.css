@@ -1,0 +1,339 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body{
+    background-image: linear-gradient(black , rgb(3, 3, 46));
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.section{
+    margin-top: 50px;
+    background: linear-gradient(to right , rgb(0, 0, 0) , rgba(11, 11, 90, 0.338)) ;
+    min-height: 100vh;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.titele{
+    color: white;
+    font-size: 60px;
+    font-family: monospace;
+    margin-top: 70px;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+.port{
+    font-size: 50px;
+    color: brown;
+}
+.container{
+    background-image: linear-gradient(to right , rgb(0, 0, 0) , rgba(11, 11, 90, 0.338)) 
+    , url(me.png);
+    width: 90%;
+    height: 100vh;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+    padding: 20px;
+    border-radius: 10px;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+}
+.logo{
+    font-size: 30px;
+    text-transform: uppercase;
+}
+ul{
+    width: 60%;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+ul a:hover {
+    border-bottom: solid 2px white;
+    color: cyan;   
+}
+ul a:active{
+    color: brown;
+}
+.content{
+    color: white;
+    width: 500px;
+    margin-top: 200px;
+    margin-left: 100px;
+    padding: 30px;
+    line-height: 30px;
+}
+.cv{
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    border: 1px solid brown ;
+    border-radius: 8px;
+    background-color: brown;
+    outline: none;
+    color: white;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: 1s;
+    margin-top: 50px;
+}
+
+.cv:hover{
+    border: brown 1px solid;
+    background: none;
+    box-shadow: brown 5px 5px;
+}
+
+h2{
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+h2 span{
+    color: brown;
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.contact p{
+    margin-top: 30px;
+    width: 450px;
+    font-family: inherit;
+    font-size: 20px;
+    color: white;
+}
+.card{
+    width: 97%;
+    min-height: 100vh;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card .cards{
+    height: 500px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background-color: rgba(133, 205, 205, 0.108);
+    margin: 10px;
+    overflow: hidden;
+    transition: .5s;
+}
+.pp{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+.img-card{
+    width: 300px;
+    border-radius: 20px;
+    margin-bottom: 50px;
+}
+
+.projects .h1 h1{
+    color: white;
+    margin-top: 50px;
+    font-size: 50px;
+
+}
+.cards .p p{
+    margin-top: 50px;
+    color: rgb(163, 127, 255);
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.cards button{
+    width: 120px;
+    font-size: 20px;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    background-color: rgba(163, 127, 255, 0.412);
+    outline: none;
+    color: white;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: 1.5s;
+    margin-top: 50px;
+}
+.cards button:hover{
+    scale: 1.2;
+    background-color: rgb(155, 143, 185);
+}
+.cards .skill-p{
+    width: fit-content;
+    color: rgb(163, 127, 255);
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+.pp p{
+    width: fit-content;
+    color: rgb(163, 127, 255);
+    font-size: 35px;
+    margin: 15px;
+    margin-bottom: 70px;
+}
+.skills .card .cards{
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.langs{
+    color: white;
+    font-size: 30px;
+    margin: 15px;
+}
+.lan{
+    display: flex;
+    
+
+}
+.lan img{
+    width: 50px;
+    margin: 15px;
+    margin-bottom: 20px;
+}
+.imgg{
+    height: 30%;
+    padding: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.ppp{
+    height: 70%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.imgg img{
+    width: 90px;
+    margin: 20px;
+}
+.ppp h2{
+    margin: 15px;
+    font-size: 40px;
+}
+.ppp p{
+    margin: 15px;
+    font-size: 22px;
+}
+.ppp p , h2{
+    margin-bottom: 50px;
+}
+.sss{
+    display: flex;
+    margin: 15px;
+}
+.sss img{
+    width: 50px;
+    margin: 10px;
+}
+.sss a h2{
+    margin: 10px;
+} 
+.contact-me .card .f-start{
+    align-items: flex-start;
+}
+@media screen and (max-width:650px){
+    ul{
+        display: flex;
+        text-align: end;
+        justify-content: space-evenly;
+        margin: 5px;
+        font-size: 13px;
+        font-weight: 1000;
+    }
+}
+@media screen and (max-width:550px) {
+    header{
+        display: block;
+    }
+    ul{
+        width: 85%;
+        display: flex;
+        justify-content: space-evenly;
+        transform: translate(0,20px);
+    }
+}
+@media screen and (max-width:900px){
+    ul{
+        text-align: end;
+        justify-content: space-between;
+        margin: 5px;
+    }
+    
+    .content{
+        color: white;
+        width: 70%;
+        margin-top: 150px;
+        margin-left: 20px;
+        padding: 0px;
+    }
+    .content h2{
+        font-size: 30px;
+    }
+    .content h2 span{
+        font-size: 35px;
+    }
+    .content p{
+        width: 95%;
+    }
+    .logo{
+        font-size: 20px;
+        text-transform: uppercase;
+    }
+    .port{
+        font-size: 25px;
+    }
+    .card{
+        flex-direction: column;
+    }
+    .card .cards{
+        height: 250px;
+        width: 90%;
+        overflow: hidden;
+    }
+    .img-card{
+        width: 320px;
+        transform: translate(0,50%);
+    }
+    .cards:hover{
+        height: 500px;
+        transition: .5s;
+    }
+    .cards:hover .img-card{
+        margin-top: 0px;
+        
+    }
+    .cards:hover .p , .button{
+    margin-top: 0px;
+    }
+    .imgg img{
+        width: 70px;
+        height: 70px;
+    }
+    .cards .skill-p{
+        text-align: center;
+        font-size: 32px;
+    }
+}
